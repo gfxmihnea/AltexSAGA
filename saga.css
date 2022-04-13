@@ -1,0 +1,118 @@
+#lineup_body {
+font-family: "BebasNeuePro-Regular",sans-serif;
+  src: url("https://www.sagafestival.com/wp-content/assets/fonts/BebasNeuePro/BebasNeuePro-Regular.woff2") format("woff2"), url("https://www.sagafestival.com/wp-content/assets/fonts/BebasNeuePro/BebasNeuePro-Regular.woff") format("woff");
+
+}
+
+.lineup_container {
+    background-color: #181a1a;
+display: block;
+padding: 20px;
+text-align: center;
+}
+
+ /* Header - TITLU si DATA */
+
+.lineup-titlu-div {
+    margin: 0 auto;
+    background:linear-gradient(rgba(24,26,26,0.8), rgba(24,26,26,1)), url("https://dpimdsvlyab8d.cloudfront.net/wp-content/uploads/sites/3/2021/09/15111120/Untitled-design.png");
+    background-position: center;
+
+    width: fit-content;
+    border-radius: 10px 10px 0 0 ;
+    text-align: center;
+    padding: 20px;
+}
+
+.lineup_container {
+    background-color: #181a1a;
+    display: block;
+    text-align: center;
+}
+
+.lineup_container_locatie {
+    display: inline-block;
+    padding: 20px;
+}
+
+.lineup_container_locatie_titlu-festival {
+    font-family: "BebasNeuePro-Bold",sans-serif;
+    src: url("https://www.sagafestival.com/wp-content/assets/fonts/BebasNeuePro/BebasNeuePro-Bold.woff2") format("woff2"), url("https://www.sagafestival.com/wp-content/assets/fonts/BebasNeuePro/BebasNeuePro-Bold.woff") format("woff");
+    display: inline-block;
+    padding: 20px;
+    font-size: 5em;
+    color: #fff;
+    border-right: 2px dashed #393939;
+}
+
+.lineup_data {
+    font-size: 3em;
+    color: #fff;
+    padding: 0;margin: 0;
+}
+
+.lineup_locatie{
+    font-size: 1.9em;
+    color: #fff;
+    color: #ffc348;
+}
+
+ /* Footer - Signout & Playlist */
+.lineup_container_signout {
+background-color: #181a1a;
+display: block;
+padding: 20px;
+text-align: center;
+}
+
+
+.saga_tu_titlu{
+    font-size: 2em;
+    color: #fff;
+    text-transform: uppercase;
+    padding: 0; margin: 0;
+}
+
+.saga_tu {
+    font-size: 6em;
+    color: #ffc348;
+}
+
+.title_lineup {
+    font-size: 1.5em;
+    color: #ffc348;
+    letter-spacing: 10px;
+    margin-bottom: 15px;
+}
+.saga_playlist {
+    font-size: 2em;
+    color: #bc003b;
+    text-align: center;
+}
+
+
+ /* Content - LINEUP */
+.lineup_regular {
+    font-family: "BebasNeuePro-Regular",sans-serif;
+    src: url("https://www.sagafestival.com/wp-content/assets/fonts/BebasNeuePro/BebasNeuePro-Regular.woff2") format("woff2"), url("https://www.sagafestival.com/wp-content/assets/fonts/BebasNeuePro/BebasNeuePro-Regular.woff") format("woff");
+    font-size: 2.5em;
+    color: #fff;
+    text-transform: uppercase;
+    padding: 0; margin: 0;
+}
+
+.lineup_bold {
+    font-family: "BebasNeuePro-Bold",sans-serif;
+    src: url("https://www.sagafestival.com/wp-content/assets/fonts/BebasNeuePro/BebasNeuePro-Bold.woff2") format("woff2"), url("https://www.sagafestival.com/wp-content/assets/fonts/BebasNeuePro/BebasNeuePro-Bold.woff") format("woff");
+    font-size: 3em;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.lineup_bullet{
+    color: #ffc348;
+}
+
+.dashed {
+    border-top: 2px dashed #393939;
+}
